@@ -47,7 +47,14 @@ button[type="submit"] {
 	font-size: 24px;
 }
 @media screen and (max-width:600px ) {
+    body {
+        background-size: cover;
+        height: 100vh;
+    background-image: url('https://avatars.mds.yandex.net/i?id=03069660b023c13f40757201be549b1c9041c7e1-9221937-images-thumbs&n=13&exp=1');
+
+      }
     .container{
+        margin-top: 300px;
         width: 80%;
         
 
