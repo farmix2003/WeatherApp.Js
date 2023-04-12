@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url('https://yandex-images.clstorage.net/K9ncd9339/e83468Dcj/AzV9EEmbAdIQ2KcF8Jq8E8vY-g4m3ETjCpOCvLUnXtF5czj-r61UvCwOK91KRQqiD9yxecJvWKRNdoPiQ_EOExI9fCF4sh2PeY2zXKC6sAfDrY8CYq0s8n76i83EM27xbWM58q7EQcVwem_tT-3mK9IUXdBbmoQFpE-Dr2LRDicXeRh4Qe950nSAFsCUpogTc7H6np7RNGJSXzPxUK7G6MD-sNaC1JwlqKLm8D9JFmsSCIl8CwIQjaTH4yrCfbZHz8X1XI2DZI7kYPYdLJakT9vt4hJqmVQOclM74cA2FpyEnqyCcmQU4bwezlgXqTbzFoRxOBcyKBFEt-v2bonWI6_9pfBZB8CukNjKHZgajOe3oUYuApVk8m7zB00gErrcUOJUrmKkBAXgpgJIh4nOf0KYBShXeiTJdJ93WvYhUi83UWUEhcdgxkyYoo0kSrC_75XmplIV1KY-v9v1KD5aKAi-UMaO3ISZAE7OyMe1ruN-eA1Ms1aQCbQ7f2q6YZoLnyURjC2TmA70YG4NqMaIp1Md7hYKMcAe8gMPdXyi3mwcvrSCYsAcwYyyZrhbyaYHBvwl1Ls6hPGYr0dOQt2uqwNlOcwZ-5x2dEz-1XBSNJ8Tde4SbokwYmKzdy309sIcWGpEJvLg1H0MTrYo4z2CK3L0kUyraiR1fNOD6nrtUo8jidFMCdfAgoBQTnGAdjSLV4Viouq9UI6-11OpkLYe4HCyLLpCNOAxjIJKoGsZRs8WVJl8e6JIMaQ3465GAZ6LZ7XlzHE3iFLwTI45gDKMT8_t1iI6STB-sqPP_eSangBE8jCy4lgkOVQS4lwz2UZngqCtCMvmAKWsc1uuwiGuCxuNtXzVH-SihBiqXYheGONHAVr-ognAot5nz-FUqi6MqJY45vJYTBl8ohY0vzmSs4K0dcTLWhSV1NcbThINyt-foXWYheMMzuyQXjU8vkRXa3lqXg6ZRHb-s9ONzCIQ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid black;
+	max-width: 600px;
+	margin: 100px auto;
+	padding: 20px;
+	text-align: center;
+    background-color: rgba(255, 225, 255, 0.2);
+    border-radius: 3px;
+    position: relative;
+
+}
+
+input[type="text"] {
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+    color: #000;
+	outline: none;
+}
+
+button[type="submit"] {
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+}
+
+#weather {
+	margin-top: 20px;
+	font-size: 24px;
+}
+@media screen and (max-width:600px ) {
+    .container{
+        width: 80%;
+        
+
+    }
+    form{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6px; 
+    }
+    input{
+        margin-bottom: 3px;
+    }
+}
