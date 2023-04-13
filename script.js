@@ -5,7 +5,7 @@ const weatherDiv = document.querySelector("#weather");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const apiKey = "66410b8d3cdffe51d804936acc0e64c4";
+  const apiKey = API_KEY;
   const city = cityInput.value.trim();
 
   if (city.length === 0) {
