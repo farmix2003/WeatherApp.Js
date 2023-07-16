@@ -46,7 +46,7 @@ button[type="submit"] {
 	margin-top: 20px;
 	font-size: 24px;
 }
-@media screen and (max-width:600px ) {
+@media screen and (max-width:670px ) {
     body {
         background-size: cover;
         height: 100vh;
